@@ -84,10 +84,8 @@ span{
 footer div{
    display: inline-flex;
     position: relative;
-    left: 475px;
-    
-    
+    left: 160px; 
 }
-/* footer li{
-    display: grid ;
-} */
+footer ul{
+    width:400px
+}
