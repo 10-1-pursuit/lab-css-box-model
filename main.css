@@ -1,0 +1,85 @@
+/* p{font-family: sans-serif;}
+
+h1{font-family: serif;align-self: center;}
+
+.anchor a {color:"#4242EA"; text-decoration: none;}
+
+ul{list-style: none;}
+
+.main .happy span{font-weight: 700;}
+
+.weather p{font-size: 40px;}
+
+.above-the-fold article{display: inline-block;}
+
+.weather div {width: 300px;border: 30px solid rgb(100, 7, 7);}
+
+.breakingnews{padding-top: 0px; padding-bottom: 0px; 
+padding-left:30px; padding-right: 30px;}
+
+.breakingnews image{width: 200px;}
+
+.clickbait article{display: inline-block;
+width: 250px; margin-top: 16px;margin-bottom: 
+16px;margin-left: 16px;margin-right: 
+ 16px; padding-left: 16px;padding-right: 16px;padding-top: 16px;padding-bottom: 16px; box-sizing: border-box; 
+}
+
+.below-the-fold article{ display: inline-block;}
+
+.below-the-fold image{display: inline-block;margin-top: 16px;margin-bottom: 
+    16px;margin-left: 16px;margin-right: 16px; padding-left: 16px;padding-right: 16px;padding-top: 16px;padding-bottom: 16px; 
+    
+    width: 200px;
+}
+
+.below-the-fold div{width: 500px;} */
+
+p{font-family: sans-serif;}
+
+.heading{font-family: serif;text-align: center;}
+ a{text-decoration: none; color:#4242EA ;}
+ ul{list-style: none;}
+
+ .happy span{font-weight: 700;}
+
+.heading p{font-size: 40px;}
+
+.above-the-fold{display: inline-block;display: flex;justify-content: center; }
+
+
+.weather .heading{width:300px; border:200px gray ;box-sizing: border-box;}
+
+.breaking-news{padding-top: 0px; padding-bottom:0px;
+padding-left:30px ; padding-right: 30px;}
+
+.breaking-news img{width: 200px;}
+.click-bait article{display: inline-block;width: 250px;margin: 16px;
+box-sizing: border-box;
+}
+.below-the-fold{display: inline-block;}
+
+
+.below-the-fold img{display: inline-block;margin: 16px;padding: 16px;width:200px}
+
+/* .below{display: inline-block;margin: 16px;padding: 16px;width:200px} */
+
+.belowDiv{width: 500px; text-shadow: #4242EA;}
+
+body{background-color: cornsilk ; background-image: -moz-linear-gradient();}
+
+#one{text-align: center;offset-position:inherit;padding-top: 0px; padding-bottom:0px;
+    padding-left:30px ; padding-right: 30px ;border-right: violet;}
+
+    .weather div{border:1px solid black}
+
+    .below-the-fold article{display: inline-block;width: 250px;margin: 16px;
+        box-sizing: border-box;
+    
+        text-align:center;offset-position:inherit;padding-top: 0px; padding-bottom:0px;
+        padding-left:30px ; padding-right: 150px ;border-right: violet;}
+    
+
+    
+
+        .box{border:500px solid black;border-width: 500px;box-sizing: border-box;}
