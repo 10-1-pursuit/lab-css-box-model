@@ -1,0 +1,36 @@
+/* Styles */
+
+body {
+    color: #333333;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #000000;
+}
+
+/* Site-wide Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
