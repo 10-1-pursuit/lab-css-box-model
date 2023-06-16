@@ -1,0 +1,99 @@
+
+p {
+  font-family: sans-serif;
+  text-align: center;
+}
+.heading{
+    font-family: serif;
+    text-align: center;
+}
+.heading p {
+  font-size: 40px;
+  text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #4242ea;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+.happy span{
+  font-weight: 700;
+ }
+.heading p{
+    font-size: 40px;
+    text align: center;
+}
+ 
+ .above-the-fold {
+ display: flex;
+ border-bottom: 1px;
+ }
+
+ .weather{ width: 300px;
+    border: 2px, 
+    solid grey, 
+    height: 250px;
+}
+
+.breaking-news{
+    padding-top:0px; 
+    padding-bottom:0px; 
+    padding-left:30px; 
+    padding-right:30px;
+    display: inline-block;
+    text-align: center;
+    flex:auto
+    width: 100%;
+}
+.breaking-news img{
+    width: 200px;
+}
+.clickbait-article{
+    display: inline-block;
+    width: 250px;
+    margin: 16px;
+    padding:16px;
+    box-sizing: border-box;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.below-the-fold article{
+    display:inline-block;
+    
+}
+
+.below-the-fold img{
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+    width: 200px;
+    display: inline-block;
+    margin: 16px;
+    width: 200px;
+}
+
+.below-the-fold div{
+    width: 500px;
+    display: inline-block;
+    margin: 16px;
+    margin: 50px;
+    position:relative;
+    bottom:100px
+    bottom: 25px
+}
+footer div{
+    display:inline-flex
+}
+
+body{
+    background-color:wheat
+}
+#one{
+    text-align: center;
+}
