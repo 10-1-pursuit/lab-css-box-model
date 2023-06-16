@@ -1,0 +1,112 @@
+* {
+  /* border: 1px solid gold; */
+  margin: 0px;
+  padding: 0px;
+}
+section,
+footer > :nth-child(n + 2) {
+  /* background-color: bisque; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex-basis: 100%;
+}
+section:last-child {
+  margin: auto 10%;
+}
+p {
+  font-family: sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: serif;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #4242ea;
+}
+li,
+ul {
+  list-style: none;
+  margin: 20px auto 30px;
+}
+footer span {
+  font-weight: 700;
+}
+.weather p {
+  font-size: 40px;
+}
+.above-the-fold article {
+  display: inline-block;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+}
+.weather {
+  width: 300px;
+  border: 5px gray solid;
+  text-align: center;
+  align-self: center;
+
+  height: 300px;
+  margin: 80px auto 10px;
+}
+.weather div > * {
+  padding: 5px 20px 5px 20px;
+  margin: 30px auto -5px;
+  flex: 1 4 auto;
+  align-self: center;
+}
+.breaking-news {
+  display: flex;
+  padding: 0px 30px;
+  width: 200px;
+  flex: 3 1 auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.breaking-news img {
+  width: 200px;
+}
+.breaking-news p {
+  margin: 15px;
+}
+.click-bait {
+  margin: 10px;
+  flex-wrap: wrap;
+}
+.click-bait article {
+  display: inline-block;
+  width: 250px;
+  margin: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  flex: 1 2 auto;
+  text-align: center;
+}
+.below-the-fold article {
+  display: inline-block;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.below-the-fold img {
+  display: inline-block;
+  margin: 16px;
+  padding: 16px;
+  width: 200px;
+  flex: 0.5 3 0;
+  height: 200px;
+}
+.below-the-fold div {
+  width: 500px;
+  flex: 3 1 auto;
+}
+.below-the-fold div > * {
+  margin: 15px;
+}
