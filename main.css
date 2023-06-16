@@ -1,6 +1,4 @@
-*{
-    border: 1px solid goldenrod;
-}
+
 p {
   font-family: sans-serif;
   text-align: center;
@@ -28,17 +26,18 @@ ul {
  }
 .heading p{
     font-size: 40px;
+    text align: center;
 }
  
  .above-the-fold {
- text-align:center;
  display: flex;
- justify-content: center;
- align-items: center;
- padding: 40px;
+ border-bottom: 1px;
  }
 
- .weather{ width: 300px;border: 2px, solid grey
+ .weather{ width: 300px;
+    border: 2px, 
+    solid grey, 
+    height: 250px;
 }
 
 .breaking-news{
@@ -46,6 +45,10 @@ ul {
     padding-bottom:0px; 
     padding-left:30px; 
     padding-right:30px;
+    display: inline-block;
+    text-align: center;
+    flex:auto
+    width: 100%;
 }
 .breaking-news img{
     width: 200px;
@@ -56,6 +59,8 @@ ul {
     margin: 16px;
     padding:16px;
     box-sizing: border-box;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 .below-the-fold article{
@@ -68,10 +73,22 @@ ul {
     margin: 16px;
     padding: 16px;
     width: 200px;
+    display: inline-block;
+    margin: 16px;
+    width: 200px;
 }
 
 .below-the-fold div{
     width: 500px;
+    display: inline-block;
+    margin: 16px;
+    margin: 50px;
+    position:relative;
+    bottom:100px
+    bottom: 25px
+}
+footer div{
+    display:inline-flex
 }
 
 body{
