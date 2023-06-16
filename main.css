@@ -1,16 +1,23 @@
+*{
+    border: 1px solid goldenrod;
+}
 p {
   font-family: sans-serif;
+  text-align: center;
+}
+.heading{
+    font-family: serif;
+    text-align: center;
+}
+.heading p {
+  font-size: 40px;
+  text-align: center;
 }
 
-h1 {
-  font-family: serif;
-  align-self: center;
-}
-
-.achr a {
+a {
     text-decoration: none;
-    color:4242EA; 
-
+    color: #4242ea;
+    text-align: center;
 }
 
 ul {
@@ -19,28 +26,31 @@ ul {
 .happy span{
   font-weight: 700;
  }
-.weather p{
+.heading p{
     font-size: 40px;
 }
- .a{
-    font-size: 40px;
- }
-
+ 
  .above-the-fold {
- display: inline-block;
+ text-align:center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 40px;
  }
 
- .weather div{ width: 300px;border: 2px solid grey;
-
+ .weather{ width: 300px;border: 2px, solid grey
 }
 
-.breakingnews{
-    padding-top:0px ; padding-bottom:0px; padding-left: 30px; padding-right: 30px;
+.breaking-news{
+    padding-top:0px; 
+    padding-bottom:0px; 
+    padding-left:30px; 
+    padding-right:30px;
 }
-.breakingnews image{
+.breaking-news img{
     width: 200px;
 }
-.clickbait article{
+.clickbait-article{
     display: inline-block;
     width: 250px;
     margin: 16px;
@@ -49,10 +59,11 @@ ul {
 }
 
 .below-the-fold article{
-    display:inline-block
+    display:inline-block;
+    
 }
 
-.below-the-fold image{
+.below-the-fold img{
     display: inline-block;
     margin: 16px;
     padding: 16px;
@@ -61,4 +72,11 @@ ul {
 
 .below-the-fold div{
     width: 500px;
+}
+
+body{
+    background-color:wheat
+}
+#one{
+    text-align: center;
 }
