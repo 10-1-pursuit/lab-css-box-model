@@ -1,0 +1,126 @@
+* {
+    border: 1px solid gold;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #4242EA;
+
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: serif;
+}
+
+h3 {
+
+    text-align: center;
+    font-family: serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: serif;
+}
+
+h5 {
+    text-align: center;
+    font-family: serif;
+}
+
+span {
+    font-weight: 700px;
+
+}
+
+.weather {
+
+    font-size: 40px;
+    width: 300px;
+    border-top: 2px gray border;
+    border-bottom: 2px gray border;
+    border-left: 2px gray border;
+    border-right: 2px gray border;
+
+
+}
+
+.above-the-fold {
+
+    display: inline-block;
+}
+
+.breaking-news {
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.click-bait {
+
+    display: inline-block;
+    width: 250px;
+    margin: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+
+
+}
+
+.below-the-fold {
+
+    display: inline-block;
+
+    margin: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.below-the-fold-div {
+
+    width: 500px;
+}
+
+.mug {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.heading_a {
+
+    float: left;
+}
+
+.heading_b {
+    overflow: hidden;
+}
+
+.heading_c {
+    float: right
+}
