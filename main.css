@@ -1,0 +1,94 @@
+* {
+    border: 1px solid gold;
+}
+
+.above-the-fold {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.heading {
+    font-family: serif;
+    text-align: center;
+}
+
+.anchor {
+    text-decoration: none;
+    color: #4242EA;
+}
+
+ul {
+    list-style: none;
+}
+
+footer span {
+    font-weight: 700;
+}
+
+#weather-p {
+    font-size: 40px;
+    text-align: center;
+}
+
+#above-article {
+    display: inline-block;
+}
+
+.weather {
+    width: 300px;
+    border: 2px solid gray;
+}
+
+.breakingnews {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#breaking-img {
+    width: 200px;
+    display: inline-block;
+}
+
+#click-article {
+    display: inline-block;
+    width: 250px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    box-sizing: border-box;
+}
+
+#below-article {
+    display: inline-block;
+    width: 250px;
+}
+
+#below-img {
+    display: inline-block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 200px;
+}
+
+#below-div {
+    display: inline-block;
+    width: 500px;
+}
