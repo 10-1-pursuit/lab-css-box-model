@@ -29,6 +29,8 @@ a {
 
 ul {
     list-style: none;
+    display: inline-block;
+    text-align: center;
 
 }
 
@@ -36,8 +38,10 @@ span {
     font-weight: 700;
 }
 
-.weather {
+.weather p {
     font-size: 40px;
+}
+.weather {
     width: 300px;
     border: 2px solid gray;
 }
@@ -51,13 +55,14 @@ span {
 }
 
 .breaking-news {
+    display: inline-block;
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 30px;
     padding-right: 30px;
 }
 
-.click-bait {
+.click-bait article {
     display: inline-block;
     width: 250px;
     margin-top: 16px;
@@ -71,7 +76,7 @@ span {
     box-sizing: border-box;
 }
 
-.below-the-fold {
+.below-the-fold article {
     display: inline-block;
 }
 
@@ -91,6 +96,8 @@ span {
 
 .below-the-fold div{
     width: 500px;
+    display: inline-block; 
+    text-align: center;
 }
 
 
