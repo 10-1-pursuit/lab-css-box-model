@@ -1,5 +1,9 @@
 p {
     font-family: sans-serif;
+
+    .weather{
+        font-size: ;
+    }
 }
 
 h1,
@@ -19,6 +23,122 @@ h6 {
 a {
 
     color: #4242EA;
+    
+    text-decoration: none;
+    
+
+}
+
+ul{
+    
+    list-style-type: none;
+}
+
+span {
+    font-weight: 700;
+}
+
+.weather{
+    
+    font-size: 40px;
+}
+
+.above-the-fold{
+
+    display: inline-block;
+
+}
+
+.weather{
+    
+    width: 300px;
+
+    border-top: 2px gray;
+    border-left: 2px gray;
+    border-right: 2px gray;
+    border-bottom: 2px gray;
+}
+  
+.breaking-news{
+   padding-top: 0px;
+
+   padding-bottom: 0px;
+
+   padding-left: 30px;
+
+   padding-right: 30px;
+     ; 
+}
+
+.click-bait{
+    display: inline-block;
+
+    width: 250px;
+
+    margin-top: 16px;
+    
+    margin-bottom: 16px;
+   
+    margin-left: 16px;
+    
+    margin-right: 16px;
+    
+    padding-top: 16px;
+    
+    padding-bottom: 16px;
+    
+    padding-left: 16px;
+    
+    padding-right: 16px;
+    
+    box-sizing: border-box;
+
+    .below-the-fold article{
+        display: inline-block;
+    }
+       
+    
+    .below-the-fold > img {
+    
+        display: inline-block;
+        
+        margin: 16px;
+       
+        padding: 16px;
+        
+        width :200px;
+        
+        position: relative;
+    
+    }
+    
+    .below-the-fold div{
+        
+        display: inline-block;
+        
+        width: 900px;
+        
+        margin: 16px;
+        
+        margin: 50px;
+        
+        position:relative;
+        
+        bottom: 100px;
+        
+        bottom: 25px
+    }
+    footer div{
+       display: inline-flex;
+       
+       position: relative;
+       
+       left: 160px; 
+    }
+    footer ul{
+       
+        width:400px
+    }
 
 
 }
